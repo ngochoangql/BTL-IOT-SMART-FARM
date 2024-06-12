@@ -1,0 +1,57 @@
+[
+    {
+        "id": "137e9d84-6780-4b39-93ab-50df41c530d3",
+        "cycle": 300,
+        "flow1": 2,
+        "flow2": 1,
+        "flow3": 2,
+        "isActive": false,
+        "schedulerName": "LỊCH TƯỚI 1",
+        "startTime": "21:09",
+        "stopTime": "21:10"
+    },
+    {
+        "id": "02e415e9-77af-48d1-8b89-2ad8321bcacf",
+        "cycle": 3,
+        "flow1": 10,
+        "flow2": 20,
+        "flow3": 10,
+        "isActive": false,
+        "schedulerName": " Lịch tưới 2",
+        "startTime": "14:00",
+        "stopTime": "16:00"
+    },
+    {
+        "id": "3d29ac4b-5ac5-4953-a4e5-7e1d2ca0e586",
+        "cycle": 3,
+        "flow1": 10,
+        "flow2": 20,
+        "flow3": 10,
+        "isActive": false,
+        "schedulerName": " Lịch tưới 3",
+        "startTime": "23:46",
+        "stopTime": "16:00"
+    },
+    {
+        "id": "5a0f9bb4-c98f-4ad9-8cd4-943e8f53c7f4",
+        "cycle": 3,
+        "flow1": 19,
+        "flow2": 2,
+        "flow3": 3,
+        "isActive": false,
+        "schedulerName": " Lịch tưới 4",
+        "startTime": "00:19",
+        "stopTime": "00:20"
+    },
+    {
+        "id": "8262b0c9-6a6a-49fb-a665-8f60806af5be",
+        "cycle": 100,
+        "flow1": 1,
+        "flow2": 1,
+        "flow3": 1,
+        "isActive": false,
+        "schedulerName": " Lịch tưới 5",
+        "startTime": "00:51",
+        "stopTime": "00:52"
+    }
+]
