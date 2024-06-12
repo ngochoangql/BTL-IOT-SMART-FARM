@@ -23,12 +23,14 @@ Dự án BTL-IOT-SMART-FARM là một hệ thống tưới tiêu thông minh s�
 ## Hướng dẫn chạy
 ### Chạy MQTT Server
 Để chạy MQTT server cục bộ, mở terminal và chạy lệnh sau:
+
     ```sh
     node server.js
     ```
 
 ### Chạy SchedulerManager
 Để chạy SchedulerManager, mở một terminal khác và chạy lệnh sau:
+
     ```sh
     python SchedulerManager.py
     ```
