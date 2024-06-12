@@ -16,7 +16,10 @@ Dự án BTL-IOT-SMART-FARM là một hệ thống tưới tiêu thông minh s�
     ```sh
     pip install paho-mqtt minimalmodbus
     ```
-
+4. Cài đặt các thư viện Node.js cần thiết:
+    ```sh
+    npm install mosca express body-parser
+    ```
 ## Hướng dẫn chạy
 ### Chạy MQTT Server
 Để chạy MQTT server cục bộ, mở terminal và chạy lệnh sau:
