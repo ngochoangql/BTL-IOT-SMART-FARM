@@ -34,7 +34,7 @@ Dự án BTL-IOT-SMART-FARM là một hệ thống tưới tiêu thông minh s�
     
 ## Ảnh minh họa
 ### Dưới đây là một số hình ảnh minh họa ứng dụng:
-<div style="display: flex; justify-content: space-around;">
+<div style="display: flex; justify-content: center;">
     <div>
         <h3> Danh sách các lịch tưới tiêu</h3>
         <br>
