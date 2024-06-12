@@ -1,23 +1,32 @@
-# Smart Farm Irrigation System
+# BTL-IOT-SMART-FARM
 
-## Running the MQTT and HTTP Server
+## Giới thiệu
+Dự án BTL-IOT-SMART-FARM là một hệ thống tưới tiêu thông minh sử dụng giao thức MQTT và Modbus để quản lý các thiết bị như máy trộn phân bón, bộ chọn vùng, và bơm nước.
 
-1. Ensure you have Node.js installed.
-2. Navigate to the directory containing `server.js`.
-3. Install the required packages and run the server:
+## Yêu cầu hệ thống
+- Node.js
+- Python
+- Thư viện Paho MQTT cho Python
+- Thư viện MinimalModbus cho Python
 
+## Cài đặt
+1. Cài đặt Node.js từ [Node.js Official Website](https://nodejs.org/)
+2. Cài đặt Python từ [Python Official Website](https://www.python.org/)
+3. Cài đặt các thư viện Python cần thiết:
     ```sh
-    npm install mosca express body-parser
+    pip install paho-mqtt minimalmodbus
+    ```
+
+## Hướng dẫn chạy
+### Chạy MQTT Server
+Để chạy MQTT server cục bộ, mở terminal và chạy lệnh sau:
+    ```sh
     node server.js
     ```
 
-## Running the Scheduler Manager
-
-1. Ensure you have Python and the necessary packages installed.
-2. Navigate to the directory containing `SchedulerManager.py`.
-3. Install the required packages and run the script:
+### Chạy SchedulerManager
+Để chạy SchedulerManager, mở một terminal khác và chạy lệnh sau:
 
     ```sh
-    pip install minimalmodbus paho-mqtt
     python SchedulerManager.py
     ```
