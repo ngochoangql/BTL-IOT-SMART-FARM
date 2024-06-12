@@ -29,7 +29,6 @@ Dự án BTL-IOT-SMART-FARM là một hệ thống tưới tiêu thông minh s�
 
 ### Chạy SchedulerManager
 Để chạy SchedulerManager, mở một terminal khác và chạy lệnh sau:
-
     ```sh
     python SchedulerManager.py
     ```
